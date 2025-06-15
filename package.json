@@ -1,0 +1,24 @@
+{
+  "name": "json-parser",
+  "version": "1.0.0",
+  "description": "Custom Json Parser using typescript",
+  "main": "dist/main.js",
+  "bin": {
+    "json-parser": "./dist/bin/json-parser.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test:watchAll": "jest --watchAll",
+    "test": "jest",
+    "clean": "rm -rf dist"
+  },
+  "author": "Dante-Nephilim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^30.0.0",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  }
+}
